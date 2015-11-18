@@ -1,0 +1,30 @@
+hola:
+    path:     /
+    defaults: { _controller: "HolaBundle:Hola:index" }
+
+hola_show:
+    path:     /{id}/show
+    defaults: { _controller: "HolaBundle:Hola:show" }
+
+hola_new:
+    path:     /new
+    defaults: { _controller: "HolaBundle:Hola:new" }
+
+hola_create:
+    path:     /create
+    defaults: { _controller: "HolaBundle:Hola:create" }
+    methods:  POST
+
+hola_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "HolaBundle:Hola:edit" }
+
+hola_update:
+    path:     /{id}/update
+    defaults: { _controller: "HolaBundle:Hola:update" }
+    methods:  [POST, PUT]
+
+hola_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "HolaBundle:Hola:delete" }
+    methods:  [POST, DELETE]

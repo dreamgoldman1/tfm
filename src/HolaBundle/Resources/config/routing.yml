@@ -1,3 +1,7 @@
+hola_hola:
+    resource: "@HolaBundle/Resources/config/routing/hola.yml"
+    prefix:   /hola
+
 hola_homepage:
     path:     /hello/{name}
     defaults: { _controller: HolaBundle:Default:index, name: "" }
