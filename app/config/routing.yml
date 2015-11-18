@@ -1,3 +1,7 @@
+prueba:
+    resource: "@pruebaBundle/Resources/config/routing.yml"
+    prefix:   /
+
 hola:
     resource: "@HolaBundle/Resources/config/routing.yml"
     prefix:   /
