@@ -1,0 +1,18 @@
+HolaBundle\Entity\Hola:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        tareas:
+            type: string
+            length: 255
+        estado:
+            type: boolean
+        creado:
+            type: datetime
+    lifecycleCallbacks: {  }
