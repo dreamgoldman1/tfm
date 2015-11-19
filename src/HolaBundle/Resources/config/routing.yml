@@ -5,3 +5,7 @@ hola_hola:
 hola_homepage:
     path:     /hello/{name}
     defaults: { _controller: HolaBundle:Default:index, name: "" }
+
+index:
+    path:     /index
+    defaults: { _controller: HolaBundle:Servicios:index }
