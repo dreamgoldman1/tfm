@@ -1,3 +1,19 @@
+content_sidebar:
+    resource: "@ContentSidebarBundle/Resources/config/routing.yml"
+    prefix:   /
+
+content_content:
+    resource: "@ContentContentBundle/Resources/config/routing.yml"
+    prefix:   /
+
+common_menu:
+    resource: "@CommonMenuBundle/Resources/config/routing.yml"
+    prefix:   /
+
+common_misc:
+    resource: "@CommonMiscBundle/Resources/config/routing.yml"
+    prefix:   /
+
 prueba:
     resource: "@pruebaBundle/Resources/config/routing.yml"
     prefix:   /

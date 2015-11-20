@@ -1,0 +1,11 @@
+{% extends 'layout.html.twig' %}
+
+    {% block sidebar %}
+        {{ render(controller('ContentSidebarBundle:Default:index')) }}
+    {% endblock %}
+    
+    {% block content %}
+        <div class="content">
+            Hello
+        </div>
+    {% endblock %}

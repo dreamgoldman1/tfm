@@ -1,0 +1,7 @@
+common_menu_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CommonMenuBundle:Default:index }
+
+menu:
+    path:     /menu
+    defaults: { _controller: CommonMenuBundle:MenuController:menu }

@@ -1,0 +1,11 @@
+common_misc_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CommonMiscBundle:Default:index }
+
+header:
+    path:     /header
+    defaults: { _controller: CommonMiscBundle:Header:header }
+
+footer:
+    path:     /footer
+    defaults: { _controller: CommonMiscBundle:Footer:footer }

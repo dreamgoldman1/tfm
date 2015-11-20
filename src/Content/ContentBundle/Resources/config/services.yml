@@ -1,0 +1,4 @@
+services:
+#    content_content.example:
+#        class: Content\ContentBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

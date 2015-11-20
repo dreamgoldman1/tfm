@@ -1,0 +1,4 @@
+services:
+#    common_misc.example:
+#        class: Common\MiscBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

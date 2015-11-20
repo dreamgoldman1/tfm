@@ -8,9 +8,121 @@ and open the template in the editor.
     Author     : familia-orozco
 */
 
+
+/*
+    Estilos generales para el body
+*/
 body{
-    max-width: 1024px;
+    background-color: #efefef;
+    color: #000000;
+    font-family: arial;
+    font-size: 16px;
     margin: 0 auto;
-    background-color: #EFEFEF;
+    max-width: 1080px;
+    width: 100%;
 }
 
+/*
+    Estilos para el header
+*/
+.header{
+    width: 100%;
+    float: left;
+    background-color: #141D81;
+}
+
+.logo {
+    display: block;
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+.logo > span {
+    width: 60%;
+    color: #ffffff;
+}
+
+.slogan {
+    display: block;
+    width: 70%;
+    color: #ffffff;
+}
+
+/*
+    Estilos para el menú
+*/
+nav {
+    background-color: #d8daea;
+    display: block;
+    padding: 1px 0;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;   
+    padding: 10px 0;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-right: 1px solid;
+}
+
+li a:hover {
+    color: #141d81;
+    background-color: #aaaaaa;
+}
+
+/*
+    Estilos para el footer
+*/
+footer{
+    padding: 20px 0 120px 0;
+    width: 100%;
+    background-color: #000;
+    color: #efefef;
+    float: left;
+}
+
+/* 
+    Estilos para el Wrapper Content
+*/
+.wrapper {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+/* 
+    Estilos para el Sidebar
+*/
+aside {
+    float: left;
+    width: 30%;
+}
+
+/* 
+    Estilos para el Content
+*/
+.content {
+    float: left;
+    width: 70%;
+}

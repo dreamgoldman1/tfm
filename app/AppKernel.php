@@ -19,6 +19,10 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new HolaBundle\HolaBundle(),
             new pruebaBundle\pruebaBundle(),
+            new Common\MiscBundle\CommonMiscBundle(),
+            new Common\MenuBundle\CommonMenuBundle(),
+            new Content\ContentBundle\ContentContentBundle(),
+            new Content\SidebarBundle\ContentSidebarBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
