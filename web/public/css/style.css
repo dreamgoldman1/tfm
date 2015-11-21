@@ -126,3 +126,44 @@ aside {
     float: left;
     width: 70%;
 }
+
+article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border-bottom: 1px dotted;
+}
+
+.foto {
+    float: left;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.nombre a {
+    color: #aa1111;
+    text-decoration: none;
+}
+
+.ver-mas > a {
+    color: #aa1111;
+    text-decoration: none;
+}
+
+.ver-mas {
+    float: left;
+    width: 20%;
+}
+
+.reputacion {
+    float: left;
+    width: 20%;
+}
+
+.perfil {
+    margin-bottom: 10px;
+}
