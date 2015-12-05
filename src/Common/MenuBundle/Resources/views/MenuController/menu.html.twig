@@ -1,7 +1,11 @@
 <nav>
     <ul>
-        {% for opcion in opcionesMenu %}
-            <li><a href="#">{{ opcion }}</a></li>
+        {% for link,opcion in opcionesMenu %}
+            {% if link == 'home' %}
+                <li><a href="/">{{ opcion }}</a></li>
+            {% else %}
+                <li><a href="/{{ link }}">{{ opcion }}</a></li>
+            {% endif %}    
         {% endfor %}
     </ul>
 </nav>

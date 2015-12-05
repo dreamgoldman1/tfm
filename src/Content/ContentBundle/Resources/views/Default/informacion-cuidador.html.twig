@@ -14,6 +14,24 @@
             {% for tipo,value in tipoMascota %}
                 <div class="tipo">{{ tipo|title }}: {{ value }}</div>
             {% endfor %}
+            <div class="tarifaDia">Tarifa por dia: {{ tarifaPorDia }}</div>
+            <div class="tarifaHora">Tarifa por hora: {{ tarifaPorHora }}</div>
+            <div class="genero">Genero: {{ genero }}</div>
+            <div class="alimentacion">Alimentacion: {{ alimentacion }}</div>
+            <div class="recogidaDomicilio">Recoje en domicilio: {{ recogidaDomicilio }}</div>
+            <div class="paseo">Paseos: {{ paseo }}</div>
+            
+            <div class="flexslider">
+                <ul class="slides">
+                    {% for foto in fotos %}
+                        <li> 
+                            <img src="{{ asset('public/img/fotos-usuario/'~foto) }}" />
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+                
+            <div class="contratar"><a href="#">Contratar</a></div>
             
         </article>
 {% endblock %}

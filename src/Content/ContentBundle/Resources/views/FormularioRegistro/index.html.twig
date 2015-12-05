@@ -1,0 +1,19 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}Formulario de Registro{% endblock %}
+
+{% block body %}
+    <h1>Registro de usuario</h1>
+    <div class="tipo-usuario">
+        <input type="radio" name="tipo-usuario" value="cliente" />Cliente
+        <input type="radio" name="tipo-usuario" value="cuidador" />Cuidador
+    </div>
+    <form class="cliente" name="cliente">
+        <div>Este es el formulario para cliente</div>
+        <button type="submit">Enviar</button>
+    </form>
+    <form class="cuidador" name="cuidador">
+        <div>Este es el formulario para cuidador</div>
+        <button type="submit">Enviar</button>
+    </form>
+{% endblock %}

@@ -1,3 +1,10 @@
 <aside>
-    El sidebar
+    {% for recomendado, value in data %} 
+    <article class="recomendados">
+        <div class="foto">{{ value.foto }}</div>
+        <div class="nombre">{{ value.nombre }}</div>
+        <div class="perfil">{{ value.perfil }}</div>
+        <div class="reputacion">{{ value.reputacion }}</div>
+    </article>
+    {% endfor %}
 </aside>

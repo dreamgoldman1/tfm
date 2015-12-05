@@ -11,6 +11,16 @@ class DefaultController extends Controller
         return $this->render('ContentContentBundle:Default:index.html.twig');
     }
     
+    public function loginAction()
+    {
+        return $this->render('ContentContentBundle:Default:login.html.twig');
+    }
+    
+    public function logoutAction()
+    {
+        return $this->render('ContentContentBundle:Default:login.html.twig');
+    }
+    
     public function getCuidadorDataAction($idCuidador)
     {
         switch ($idCuidador){

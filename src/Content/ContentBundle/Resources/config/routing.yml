@@ -5,3 +5,11 @@ content_content_homepage:
 content_content_cuidador:
     path:     /cuidador/{idCuidador}
     defaults: { _controller: ContentContentBundle:Default:getCuidadorData }
+
+content_content_login:
+    path:     /login
+    defaults: { _controller: ContentContentBundle:Default:login }
+
+content_content_formularioRegistro:
+    path:     /formularioRegistro
+    defaults: { _controller: ContentContentBundle:FormularioRegistro:index }

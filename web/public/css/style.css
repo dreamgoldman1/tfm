@@ -50,8 +50,14 @@ body{
 
 .slogan {
     display: block;
-    width: 70%;
+    width: 50%;
     color: #ffffff;
+}
+
+.links{
+    float:left;
+    width:20%;
+    display: block; 
 }
 
 /*
@@ -119,6 +125,10 @@ aside {
     width: 30%;
 }
 
+aside article{
+    width: 100%;
+}
+
 /* 
     Estilos para el Content
 */
@@ -166,4 +176,10 @@ article {
 
 .perfil {
     margin-bottom: 10px;
+}
+
+/* Formulario loggin */
+.login{
+    width: 100%;
+    float: left;
 }
