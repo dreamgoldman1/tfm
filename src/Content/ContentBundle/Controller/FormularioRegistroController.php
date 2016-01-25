@@ -8,8 +8,7 @@ class FormularioRegistroController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('ContentContentBundle:FormularioRegistro:index.html.twig', array(
-                // ...
-            ));    }
+        return $this->render('ContentContentBundle:FormularioRegistro:index.html.twig');    
+    }
 
 }

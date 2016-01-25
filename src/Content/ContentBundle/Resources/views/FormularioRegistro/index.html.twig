@@ -9,11 +9,18 @@
         <input type="radio" name="tipo-usuario" value="cuidador" />Cuidador
     </div>
     <form class="cliente" name="cliente">
-        <div>Este es el formulario para cliente</div>
+        <div>Por favor diligenciar el formuario para poder registrarse como cliente.<br>Los campos marcados con * son obigatorios.</div>
+        <div><input type="text" name="nombres" placeholder="Nombres" /></div>
+        <div><input type="text" name="apellidos" placeholder="Apellidos" /></div>
+        <div><input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento" /></div>
+        <div><input type="radio" name="genero" value="masculino" />Masculino</div>
+        <div><input type="radio" name="genero" value="femenino" />Femenino</div>
+        <div><input type="text" name="ciudad" placeholder="Ciudad" /></div>
+        
         <button type="submit">Enviar</button>
     </form>
     <form class="cuidador" name="cuidador">
-        <div>Este es el formulario para cuidador</div>
+        <div>Por favor diligenciar el formuario para poder registrarse como cuidador.<br>Los campos marcados con * son obigatorios.</div>
         <button type="submit">Enviar</button>
     </form>
 {% endblock %}

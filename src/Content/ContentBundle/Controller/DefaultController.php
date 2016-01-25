@@ -23,6 +23,7 @@ class DefaultController extends Controller
     
     public function getCuidadorDataAction($idCuidador)
     {
+        $data = array();
         switch ($idCuidador){
             
             case 1:
